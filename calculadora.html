@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculaLeo</title>
+    <script src="cuenta.js"></script>
+    <script src="funcionalidades.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div>
+        <label for="firtsNumber">Primer Numero</label>
+        <input type="number" id="firtsNumber" name="firtsNumber" >
+        <label for="secondNumber">Segundo Numero</label>
+        <input type="number" name="secondNumber" id="secondNumber">
+        <textarea disabled name="resultado" type="" id="resultado"></textarea>
+        <button onclick="suma()">Sumar</button>
+        <button onclick="resta()">Restar</button>
+        <button onclick="listaNumeros()">Lista de numeros</button>
+        <button onclick="raiz()">Raiz Cuadrada</button>
+    </div> 
+
+    <div>
+        <label for="user">Usuario</label>
+        <input type="text" id="user" name="Usuario">
+    
+        <label for="password" >Contraseña</label>
+        <input type="password" id="password">
+    
+        <button onclick="validadorCuenta()">Login</button>
+    
+        <textarea disabled name="account" id="account"></textarea>
+    </div>
+    
+</body>
+</html>
